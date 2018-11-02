@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#container {
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.game_name {
+  height: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.asideRight {
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+
+#score_data {
+  float: left;
+  width: 33.3%;
+}
+
+#life_data {
+  float: right;
+  width: 33.3%;
+}
+
+#speed_data {
+  float: right;
+  width: 33.3%;
+}
+
+#score_help {
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  clear: both;
+  margin: 30px auto;
+}
+
+#branch {
+  position: absolute;
+  height: 2%;
+  width: 100%;
+  top: 19%;
+}
+
+.hen {
+  position: absolute;
+  height: 15%;
+  width: 8%;
+  top: 10%;
+  z-index: 100;
+}
+
+#hen1 {
+  left: 20%;
+}
+
+#hen2 {
+  left: 40%;
+}
+
+#hen3 {
+  left: 60%;
+}
+
+.egg {
+  position: absolute;
+  height: 5%;
+  width: 2%;
+  top: 15%;
+  z-index: 50;
+  border-radius: 50%;
+}
+
+#egg1 {
+  left: calc(20% + 8% / 2 - 2% / 2);
+}
+#egg2 {
+  left: calc(40% + 8% / 2 - 2% / 2);
+}
+#egg3 {
+  left: calc(60% + 8% / 2 - 2% / 2);
+}
+
+.bullseye {
+  display: none;
+  position: absolute;
+  height: 7%;
+  width: 7%;
+  bottom: 0%;
+
+  z-index: 11;
+  border-radius: 50% "";
+}
+
+#bullseye1 {
+  left: calc(20% + 8% / 2 - 7% / 2);
+}
+#bullseye2 {
+  left: calc(40% + 8% / 2 - 7% / 2);
+}
+#bullseye3 {
+  left: calc(60% + 8% / 2 - 7% / 2);
+}
+
+#floor {
+  height: 7%;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+  position: absolute;
+}
+
+#basket {
+  height: 100px;
+  width: 85px;
+  position: absolute;
+  text-align: center;
+  z-index: 60;
+  bottom: 5px;
+  text-align: center;
+}
+
+#score_1 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#restart {
+  display: none;
+  cursor: pointer;
+}
+
+.how_to {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 150px;
+}
+
+.designed_by {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.game_name{
+  margin-bottom: 20px;
+}

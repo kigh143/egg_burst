@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="skins/main.css">
+    <link rel="stylesheet" href="skins/theme1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="container" class="asideLeft">
+        <div id="branch"></div>
+
+        <div id="hen1" class="hen"></div>
+        <div id="hen2" class="hen"></div>
+        <div id="hen3" class="hen"></div>
+
+        <div class="egg" id="egg1" data-bullseye="1"></div>
+        <div class="egg" id="egg2" data-bullseye="2"></div>
+        <div class="egg" id="egg3" data-bullseye="3"></div>
+
+
+        <div class="bullseye" id="bullseye1"></div>
+        <div class="bullseye" id="bullseye2"></div>
+        <div class="bullseye" id="bullseye3"></div>
+
+        <div id="basket">
+            <span id="score_1"></span>
+        </div>
+
+        <div id="floor"></div>
+
+    </div>
+    <div class="asideRight">
+        <div class="game_name">
+            <img src="skins/chicken.png" width="70">
+        </div>
+
+        <div id="score_help">
+            <div id="score_data">
+                <h6>Score</h6>
+                <span id="score"></span>
+            </div>
+            <div id="life_data">
+                <h6>Life</h6>
+                <span id="life"></span>
+            </div>
+            <div id="speed_data">
+                <h6>speed</h6>
+                <span id="speed"></span>
+            </div>
+        </div>
+        <br style="clear:both;">
+
+        <div style="text-align:center; margin-top:20px;">
+            <button class="btn btn-waring" id="restart">restart game</button>
+        </div>
+
+        <div class="how_to">
+            <p>how to play</p>
+            <p>Hove on the screen with your mouse to save the eggs. Speed will increase depending on how much you have
+                corrected, its that simple</p>
+        </div>
+        <div class="designed_by">
+            <small>By Katende hakim .G.</small>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/collision_detection.js"></script>
+    <script src="js/varriables.js"></script>
+    <script src="scripts/init.js"></script>
+    <script src="scripts/functions.js"></script>
+</body>
+</body>
+
+</html>

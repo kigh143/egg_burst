@@ -1,0 +1,78 @@
+* {
+  font-weight: lighter;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#branch {
+  background-image: url(branch.png);
+  box-shadow: 1px 2px #eee;
+}
+
+.hen {
+  background-image: url(hen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.egg {
+  background-image: url(egg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bullseye {
+  background-image: url(blegg.png);
+  background-repeat: no-repeat;
+}
+
+#floor {
+  background-image: url(floor.jpg) !important;
+  background-size: cover;
+}
+
+.game_name {
+  background-color: #013859;
+  color: rgb(172, 172, 172);
+  padding: 20px;
+}
+
+#basket {
+  background-image: url(basket.png) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 1px #3333;
+}
+
+#score_1 {
+  color: rgb(233, 234, 236);
+  background: rgb(93, 55, 30);
+  font-size: 20px;
+  font-weight: bold !important;
+}
+
+#container {
+  background: #465352;
+}
+
+.asideRight {
+  background: #232929;
+  color: #fff;
+}
+
+#score_data {
+  color: rgb(225, 161, 241);
+}
+
+#life_data {
+  color: rgb(181, 228, 246);
+}
+
+#speed_data {
+  color: rgb(182, 240, 182);
+}
+
+.how_to {
+  color: #ddd;
+  background: #222;
+}
